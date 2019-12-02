@@ -1,10 +1,11 @@
 <template>
-  <div class="about">About</div>
+  <div class="vue-info">Vue Info</div>
 </template>
 
 <script>
+
 export default {
-  name: 'about',
+  name: 'vue-info',
   components: {},
 };
 </script>
