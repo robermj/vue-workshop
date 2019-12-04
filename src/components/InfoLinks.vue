@@ -18,6 +18,7 @@ export default {
         { url: 'https://cli.vuejs.org/guide/', name: 'Vue-cli' },
         { url: 'https://router.vuejs.org/', name: 'Vue router' },
         { url: 'https://vuex.vuejs.org/', name: 'Vuex' },
+        { url: 'https://vuejs.org/v2/guide/comparison.html', name: 'Vue vs Other frameworks' },
       ],
     };
   },

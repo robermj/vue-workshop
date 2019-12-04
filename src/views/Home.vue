@@ -5,6 +5,7 @@
         <app-vertical-nav></app-vertical-nav>
       </div>
       <div class="col-sm-9">
+        <router-view></router-view>
       </div>
     </div>
   </div>
