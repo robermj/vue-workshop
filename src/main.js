@@ -17,7 +17,7 @@ Vue.directive('highlight', {
     // el.style.backgroundColor = 'cyan'
     // el.style.backgroundColor = binding.value
     if (binding.modifiers.delayed) {
-      delay = 4000;
+      delay = 3000;
     }
     setTimeout(() => {
       if (binding.arg === 'background') {

@@ -46,9 +46,9 @@ const routes = [
         name: 'directives',
       },
       {
-        path: '/filters-mixins/',
-        component: () => import(/* webpackChunkName: "filers-mixins" */ '../components/Filters.vue'),
-        name: 'filters-mixins',
+        path: '/filters/',
+        component: () => import(/* webpackChunkName: "filers" */ '../components/Filters.vue'),
+        name: 'filters',
       },
       {
         path: '/animations/',

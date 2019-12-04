@@ -17,7 +17,7 @@ export default {
         { name: 'Forms', url: '/forms/' },
         { name: 'Components', url: '/components/' },
         { name: 'Directives', url: '/directives/' },
-        { name: 'Filters & Mixins', url: '/filters-mixins/' },
+        { name: 'Filters', url: '/filters/' },
         { name: 'Animations', url: '/animations/' },
         { name: 'Requests', url: '/requests/' },
         { name: 'Routing', url: '/routing/' },
