@@ -76,6 +76,10 @@ const routes = [
     path: '/about',
     name: 'about',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    beforeEnter: (to, from, next) => {
+      console.log('BeforeEnter info: ', to, from);
+      next();
+    },
   },
   {
     path: '/vue-info',

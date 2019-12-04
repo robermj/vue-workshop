@@ -16,7 +16,12 @@
             </router-link>
           </ul>
           <ul class="navbar-nav">
-            <li class="nav-item infoItem">Counter: {{ counter }}</li>
+            <li class="nav-item">
+              <a class="nav-link infoItem">Counter: {{ counter }}</a>
+            </li>
+            <li class="nav-item infoItem">
+              <a class="nav-link infoItem">Number of todos: {{ todosLength }}</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -30,6 +35,9 @@ export default {
     counter() {
       return this.$store.getters.getCounter;
     },
+    todosLength() {
+      return this.$store.getters.getTodosLength;
+    },
   },
 };
 </script>
@@ -39,6 +47,6 @@ export default {
   padding: 0;
 }
 .infoItem {
-  color: white;
+  color: white !important;
 }
 </style>

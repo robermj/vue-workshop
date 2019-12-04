@@ -1,6 +1,7 @@
 <template>
   <div class="state">
     <h1>State Management</h1>
+    <h6>Vuex Library</h6>
     <p>
       Vuex is a state management pattern + library for Vue.js applications.
       It serves as a centralized store for all the components in an application,

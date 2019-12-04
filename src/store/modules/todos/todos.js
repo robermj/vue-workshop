@@ -24,6 +24,7 @@ const actions = {
 
 const getters = {
   getTodos: ({ todos }) => todos,
+  getTodosLength: ({ todos }) => todos.length,
 };
 
 export default {
