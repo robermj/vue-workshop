@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="filters">
     <h1>Filters</h1>
     <app-code-snippet :code="fil1"></app-code-snippet>
     <p>Capitalize Filter: {{ message1 | capitalize }}</p>
