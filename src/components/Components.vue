@@ -12,6 +12,9 @@
     <hr>
     <h4>Component Life Cycles</h4>
     <app-life-cycles></app-life-cycles>
+    <hr>
+    <h4>Switching between components</h4>
+    <app-cmp-switcher></app-cmp-switcher>
   </div>
 </template>
 
@@ -20,6 +23,7 @@ import { comp1, comp2 } from '../codeSnippets/components';
 import Servers from './ServersComponent/Servers.vue';
 import Parent from './Slots/Parent.vue';
 import LifeCycles from './LifeCycles.vue';
+import ComponentSwitcher from './SwitchingComponents/ComponentSwitcher.vue';
 
 export default {
   data() {
@@ -32,6 +36,7 @@ export default {
     appServers: Servers,
     appParent: Parent,
     appLifeCycles: LifeCycles,
+    appCmpSwitcher: ComponentSwitcher,
   },
 };
 </script>
