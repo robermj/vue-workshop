@@ -1,9 +1,18 @@
 import Vue from 'vue';
+import VueResource from 'vue-resource';
 import App from './App.vue';
 import router from './router';
 import store from './store';
 
 import CodeSnippet from './components/CodeSnippet.vue';
+
+Vue.use(VueResource);
+// Vue.http.options.root = 'https://jsonplaceholder.typicode.com';
+// Vue.http.headers.common['Authorization'] = 'Basic YXBpOnBhc3N3b3Jk'
+Vue.http.interceptors.push((request, next) => {
+  console.log('Request', request);
+  next();
+});
 
 Vue.config.productionTip = false;
 
