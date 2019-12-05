@@ -2,7 +2,6 @@
   <div class="todos">
     <h2>Todos Component</h2>
     <div>
-      <button class="btn btn-success">Add Todo</button>
       <button class="btn btn-danger" @click="emptyTodos">Empty Todos</button>
     </div>
     <hr>
